@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* ── Global smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Custom font stack ── */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Headings use Playfair Display for elegance ── */
+h1, h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fbbf24;
+}
+
+/* ── Selection highlight ── */
+::selection {
+  background: #f59e0b33;
+  color: #f59e0b;
+}
+
+/* ── Utility: hide scrollbar for horizontal scroll containers ── */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
