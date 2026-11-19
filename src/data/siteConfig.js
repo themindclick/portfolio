@@ -2,7 +2,7 @@ export const siteConfig = {
   brand: { name: "LensArt Studio", tagline: "Capturing Moments. Crafting Memories.", logo: "📷" },
   hero: {
     headline: "Every Moment Deserves to Be Beautiful",
-    subheadline: "Professional photography that tells your unique story — from golden-hour portraits to milestone celebrations.",
+    subheadline: "Professional photography that tells your unique story from golden-hour portraits to milestone celebrations.",
     ctaPrimary: { label: "View Gallery", href: "#gallery" },
     ctaSecondary: { label: "Book a Session", href: "#contact" },
     stats: [
@@ -12,11 +12,11 @@ export const siteConfig = {
       { value: "50+", label: "Awards Won" }
     ],
     heroImages: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6Uiup15xP2dr8_4RdncJFbfWLW1u_AFNWD3xDzPhWw&s=10",
-      "https://d21qxd5qkegi1o.cloudfront.net/wp-content/uploads/2016/09/aasmi_2016_09-bay-area-san-francisco-one-year-baby-birthday-cake-smash-001.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiXlyH7P9bzLWv9Y6FCDdsjkcXqKmHbAcHsUWzJfaEw&s=10",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQslHw5ZJOVLzeZWppPGSOjQo3U_NzkplJ60MfF1lXew&s=10",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQfPBfzwQ4SCBTNUydjGXsp3x_O-IjUaV2PYCRvx4jCw&s=10"
+      "https://i.pinimg.com/736x/aa/8f/38/aa8f3841a866aadfb8b43679826946ff.jpg",
+      "https://i.pinimg.com/736x/69/98/8e/69988eb768bc46219b00f0e57210e55b.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncsqKsBazXtlbOFsCeqQA3cTLzHU6ygXAVzsMIiwvlc3zyPRKFBF8i0xi&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ6bOSK7vbtZpGiEdz3RKIR8N83yKiG0BwV-j5-aVH6zPOMuc67Q5moKM&s=10",
+      "https://images.pexels.com/photos/33438730/pexels-photo-33438730.jpeg?cs=srgb&dl=pexels-eduardo199o9-178988127-33438730.jpg&fm=jpg"
     ]
   },
   about: {
